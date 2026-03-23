@@ -4,6 +4,7 @@
 @import "hero.css";
 @import "section.css";
 @import "info.css";
+@import "benefits.css";
 
 :root {
     --primary: #2C3038;
