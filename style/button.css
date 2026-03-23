@@ -1,0 +1,27 @@
+.button {
+    display: inline-flex;
+    gap: 0.5em;
+    align-items: center;
+
+    font-size: 1.6rem;
+    color: var(--primary);
+
+    background-color: var(--light);
+
+    border-radius: 2.75em;
+    padding: 0.8125em 1.75em;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 1em;
+        height: 1em;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.btn-shadow {
+    box-shadow: 0 5px 18px rgba(108, 110,
+    237, 0.6);
+}
