@@ -1,11 +1,16 @@
 .info {
     display: flex;
     align-items: center;
+    gap: 3rem;
+
+    + .info {
+        margin-top: 16rem;
+    }
 }
 
 .info-image,
 .info-content {
-    flex: 0 0 50%;
+    flex: 0 1 50%;
 }
 
 .info-image img {
@@ -22,6 +27,11 @@
     line-height: 1.1;
     font-weight: 800;
     letter-spacing: var(--letter-spacing);
+}
+
+.info-title--light {
+    color: var(--light);
+    opacity: 0.6;
 }
 
 .info-text {
