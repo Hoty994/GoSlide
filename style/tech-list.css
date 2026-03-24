@@ -1,0 +1,33 @@
+.tech-list {
+    display: flex;
+    margin: 10rem 0 8rem;
+    flex-wrap: wrap;
+}
+
+.tech-list-item {
+    flex: 0 0 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.tech-list-icon {
+    display: block;
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.tech-list-title {
+    margin: 1rem 0;
+
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--light);
+}
+
+.tech-list-text {
+    color: var(--gray-text);
+    line-height: 1.5;
+    text-align: center;
+}
