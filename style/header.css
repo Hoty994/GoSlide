@@ -30,9 +30,7 @@
     background-size: contain;
 }
 
-.header__nav-btn.button {
-
-    font-size: 1.6rem;
+.header__nav-btn.btn-before {
 
     &::before {
         background-image: url(../image/shopping-bag.svg);

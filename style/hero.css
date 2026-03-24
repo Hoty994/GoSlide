@@ -22,7 +22,7 @@
     font-size: 10rem;   
     font-weight: 800;
     text-align: center;
-    letter-spacing: -3%;
+    letter-spacing: var(--letter-spacing);
     filter: drop-shadow(0 4px 40px rgba(0, 0, 0, 1));
 
     position: relative;
@@ -58,6 +58,7 @@
     font-weight: 800;
     font-size: 3.2rem;
     color: var(--light);
+    letter-spacing: var(--letter-spacing);
 }
 
 .table-right {

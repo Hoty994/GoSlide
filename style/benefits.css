@@ -1,0 +1,36 @@
+.benefits {
+    display: flex;
+    align-items: center;
+    padding: 0 6.7rem;
+    margin: 15rem 0 0;
+}
+
+.benefits-item {
+    display: flex;
+    align-items: center;
+    padding: 0 4.8rem;
+}
+
+.benefits-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 9rem;
+    height: 9rem;
+    margin-right: 3rem;
+
+    font-size: 2.7rem;
+    font-weight: 700;
+
+    border-radius: 50%;
+
+    background-color: var(--light);
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+}
+
+.benefits-text {
+    font-size: 2.2rem;
+    font-weight: 300;
+}

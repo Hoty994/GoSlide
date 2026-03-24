@@ -2,6 +2,14 @@
 @import "nav.css";
 @import "button.css";
 @import "hero.css";
+@import "section.css";
+@import "info.css";
+@import "benefits.css";
+@import "helpers.css";
+@import "tech-list.css";
+@import "random-text.css";
+@import "bedge.css";
+
 
 :root {
     --primary: #2C3038;
@@ -12,6 +20,8 @@
     --pink-dark: #A6002F;
 
     --z-index: 1000;
+
+    --letter-spacing: -3%;
 }
 
 html {
