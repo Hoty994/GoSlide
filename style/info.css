@@ -8,12 +8,11 @@
     }
 }
 
-.info-image,
-.info-content {
+.info-col {
     flex: 0 1 50%;
 }
 
-.info-image img {
+.info-image {
     display: block;
     max-width: 100%;
     height: auto;
@@ -46,4 +45,15 @@
     &::after {
         background-image: url(../image/arrow-down.svg);
     }
+}
+
+.reviews__info-btn {
+
+    &::after {
+        background-image: url(../image/external-link.svg);
+    }
+}
+
+.info--reviews {
+    padding: 0 11.5rem;
 }

@@ -2,7 +2,7 @@
     padding: 20rem 0 15rem;
 }
 
-.section--white {
+.section--light {
     background-color: var(--light);
     background-image: repeating-linear-gradient(
         to right,
