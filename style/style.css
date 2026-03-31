@@ -9,6 +9,11 @@
 @import "tech-list.css";
 @import "random-text.css";
 @import "bedge.css";
+@import "reviews.css";
+@import "slider.css";
+@import "gallery.css";
+@import "products.css";
+@import "price.css";
 
 
 :root {

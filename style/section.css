@@ -1,8 +1,10 @@
 .section {
     padding: 20rem 0 15rem;
+
+    background-color: #f6f6f6;
 }
 
-.section--white {
+.section--light {
     background-color: var(--light);
     background-image: repeating-linear-gradient(
         to right,
