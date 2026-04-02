@@ -21,6 +21,10 @@
 
     &:hover {
         background-color: var(--primary);
+
+        .social-list-icon {
+            stroke: var(--light);
+        }
     }
 }
 
@@ -28,4 +32,7 @@
     display: block;
     width: 4rem;
     height: 4rem;
+
+    stroke: var(--gray-text);
+    transition: stroke .2s linear;
 }

@@ -59,6 +59,7 @@
     font-weight: 800;
 
     .btn-icon {
+        stroke: white;
         width: 3.4rem;
         height: 3.4rem;
     }
