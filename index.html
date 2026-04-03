@@ -19,26 +19,32 @@
         </a>
 
         <nav class="nav">
-            <a class="nav-link" href="#">Overview</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Techology</a>
-            <a class="nav-link" href="#">Design</a>
-            <a class="nav-link" href="#">Review</a>
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link hover-line" href="#">Overview</a>
+            <a class="nav-link hover-line" href="#">Features</a>
+            <a class="nav-link hover-line" href="#">Techology</a>
+            <a class="nav-link hover-line" href="#">Design</a>
+            <a class="nav-link hover-line" href="#">Review</a>
+            <a class="nav-link hover-line" href="#">Pricing</a>
         </nav>
 
         <a class="btn" href="#">
-            <img class="btn-icon" src="assets/images/order-icon.svg" alt="">
+
+            <svg class="btn-icon">
+                <use href="assets/images/icons-sprite.svg#order-icon"></use>
+            </svg>
             order now
         </a>
     </header>
 
 
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="container">
 
             <h1 class="hero-title">SLIDe CONTROL</h1>
-            <img class="hero-image" src="assets/images/mouse-1.png" alt="">
+            <picture>
+                <source srcset="assets/images/mouse-1.webp" type="image/webp">
+                <img class="hero-image" src="assets/images/mouse-1.png" alt="">
+            </picture>
 
             <div class="hero-text">
                 <div class="hero-text-col">
@@ -57,7 +63,9 @@
 
             <div class="hero-footer">
                 <a class="btn  btn--large  btn--shadow" href="#">
-                    <img class="btn-icon" src="assets/images/play-icon.svg" alt="">
+                    <svg class="btn-icon">
+                        <use href="assets/images/icons-sprite.svg#play-icon"></use>
+                    </svg>
                     play video
                 </a>
             </div>
@@ -75,7 +83,10 @@
 
             <div class="info">
                 <div class="info-col">
-                    <img class="info-photo" src="assets/images/mouse-2.png" alt="">
+                    <picture>
+                        <source srcset="assets/images/mouse-2.webp" type="image/webp">
+                        <img class="info-photo" src="assets/images/mouse-2.png" alt="">
+                    </picture>
                 </div>
                 <div class="info-col">
                     <h2 class="info-title">No Wires <br> 100h Battery Life</h2>
@@ -84,7 +95,9 @@
                     </div>
                     <a class="btn  btn--primary" href="#">
                         Specs and Compatibility
-                        <img class="btn-primary-icon" src="assets/images/arrow-down.svg" alt="">
+                        <svg class="btn-primary-icon">
+                            <use href="assets/images/icons-sprite.svg#arrow-down"></use>
+                        </svg>
                     </a>
                 </div>
             </div>
@@ -118,7 +131,9 @@
 
             <ul class="tech-list">
                 <li class="tech-list-item">
-                    <img class="tech-list-icon" src="assets/images/tech-icons/ruler-dimension-line.svg" alt="">
+                    <svg class="tech-list-icon">
+                        <use href="assets/images/icons-sprite.svg#ruler-dimension-line"></use>
+                    </svg>
                     <h3 class="tech-list-title">Dimensions</h3>
                     <p class="tech-list-text">
                         Height: 40 mm <br>
@@ -128,43 +143,57 @@
                 </li>
 
                 <li class="tech-list-item">
-                    <img class="tech-list-icon" src="assets/images/tech-icons/table-rows-split.svg" alt="">
+                    <svg class="tech-list-icon">
+                        <use href="assets/images/icons-sprite.svg#table-rows-split"></use>
+                    </svg>
                     <h3 class="tech-list-title">Max Report Rate</h3>
                     <p class="tech-list-text">5000Hz</p>
                 </li>
 
                 <li class="tech-list-item">
-                    <img class="tech-list-icon" src="assets/images/tech-icons/battery-full.svg" alt="">
+                    <svg class="tech-list-icon">
+                        <use href="assets/images/icons-sprite.svg#battery-full"></use>
+                    </svg>
                     <h3 class="tech-list-title">Battery</h3>
                     <p class="tech-list-text">95 h Hrs *Battery life may vary based on user and computing conditions.</p>
                 </li>
 
                 <li class="tech-list-item">
-                    <img class="tech-list-icon" src="assets/images/tech-icons/monitor-cog.svg" alt="">
+                    <svg class="tech-list-icon">
+                        <use href="assets/images/icons-sprite.svg#monitor-cog"></use>
+                    </svg>
                     <h3 class="tech-list-title">System Requirements</h3>
                     <p class="tech-list-text">PC with Windows® 10 or later and USB 2.0 port.</p>
                 </li>
 
                 <li class="tech-list-item">
-                    <img class="tech-list-icon" src="assets/images/tech-icons/shield-check.svg" alt="">
+                    <svg class="tech-list-icon">
+                        <use href="assets/images/icons-sprite.svg#shield-check"></use>
+                    </svg>
                     <h3 class="tech-list-title">Warranty</h3>
                     <p class="tech-list-text">2-Year Limited Hardware Warranty</p>
                 </li>
 
                 <li class="tech-list-item">
-                    <img class="tech-list-icon" src="assets/images/tech-icons/cpu.svg" alt="">
+                    <svg class="tech-list-icon">
+                        <use href="assets/images/icons-sprite.svg#cpu"></use>
+                    </svg>
                     <h3 class="tech-list-title">Microprocessor</h3>
                     <p class="tech-list-text">32-bit ARM</p>
                 </li>
 
                 <li class="tech-list-item">
-                    <img class="tech-list-icon" src="assets/images/tech-icons/circle-gauge.svg" alt="">
+                    <svg class="tech-list-icon">
+                        <use href="assets/images/icons-sprite.svg#circle-gauge"></use>
+                    </svg>
                     <h3 class="tech-list-title">Max. speed</h3>
                     <p class="tech-list-text">>888 IPS</p>
                 </li>
 
                 <li class="tech-list-item">
-                    <img class="tech-list-icon" src="assets/images/tech-icons/memory-stick.svg" alt="">
+                    <svg class="tech-list-icon">
+                        <use href="assets/images/icons-sprite.svg#memory-stick"></use>
+                    </svg>
                     <h3 class="tech-list-title">Sensor</h3>
                     <p class="tech-list-text">SUPER HERO 3</p>
                 </li>
@@ -177,7 +206,10 @@
 
             <div class="info">
                 <div class="info-col">
-                    <img class="info-photo" src="assets/images/mouse-3.png" alt="">
+                    <picture>
+                        <source srcset="assets/images/mouse-3.webp" type="image/webp">
+                        <img class="info-photo" src="assets/images/mouse-3.png" alt="">
+                    </picture>
                 </div>
                 <div class="info-col">
                     <h2 class="info-title  info-title--light">Recycled Plastics</h2>
@@ -189,7 +221,10 @@
 
             <div class="info">
                 <div class="info-col">
-                    <img class="info-photo" src="assets/images/mouse-4.png" alt="">
+                    <picture>
+                        <source srcset="assets/images/mouse-4.webp" type="image/webp">
+                        <img class="info-photo" src="assets/images/mouse-4.png" alt="">
+                    </picture>
                 </div>
                 <div class="info-col">
                     <h2 class="info-title  info-title--light">Fastest Sensor</h2>
@@ -215,7 +250,9 @@
                     </div>
                     <a class="btn  btn--primary" href="#">
                         Read Reviews
-                        <img class="btn-primary-icon" src="assets/images/external-link.svg" alt="">
+                        <svg class="btn-primary-icon">
+                            <use href="assets/images/icons-sprite.svg#external-link"></use>
+                        </svg>
                     </a>
                 </div>
 
@@ -223,10 +260,14 @@
 
                     <div class="slider-arrows">
                         <button class="slider-arrows-prev" type="button">
-                            <img class="slider-arrows-icon" src="assets/images/circle-arrow-right.svg" alt="">
+                            <svg class="slider-arrows-icon">
+                                <use href="assets/images/icons-sprite.svg#circle-arrow-left"></use>
+                            </svg>
                         </button>
                         <button class="slider-arrows-next" type="button">
-                            <img class="slider-arrows-icon" src="assets/images/circle-arrow-right.svg" alt="">
+                            <svg class="slider-arrows-icon">
+                                <use href="assets/images/icons-sprite.svg#circle-arrow-right"></use>
+                            </svg>
                         </button>
                     </div>
 
@@ -250,7 +291,10 @@
     <div class="gallery">
         <div class="gallery-item">
             <h2 class="gallery-title">Smooth tracking fast response</h2>
-            <img class="gallery-photo" src="assets/images/gallery-1.jpg" alt="">
+            <picture>
+                <source srcset="assets/image/gallery-1.webp" type="image/webp">
+                <img class="gallery-photo" src="assets/images/gallery-1.jpg" alt="">
+            </picture>
         </div>
     </div>
 
@@ -263,19 +307,31 @@
 
             <div class="products">
                 <div class="products-item">
-                    <img class="products-photo" src="assets/images/colors/black.png" alt="">
+                    <picture>
+                        <source srcset="assets/images/colors/black.webp" type="image/webp">
+                        <img class="products-photo" src="assets/images/colors/black.png" alt="">
+                    </picture>
                     <div class="products-name">Black</div>
                 </div>
                 <div class="products-item">
-                    <img class="products-photo" src="assets/images/colors/red.png" alt="">
+                    <picture>
+                        <source srcset="assets/images/colors/red.webp" type="image/webp">
+                        <img class="products-photo" src="assets/images/colors/red.png" alt="">
+                    </picture>
                     <div class="products-name">Red</div>
                 </div>
                 <div class="products-item">
-                    <img class="products-photo" src="assets/images/colors/yellow.png" alt="">
+                    <picture>
+                        <source srcset="assets/images/colors/yellow.webp" type="image/webp">
+                        <img class="products-photo" src="assets/images/colors/yellow.png" alt="">
+                    </picture>
                     <div class="products-name">Yellow</div>
                 </div>
                 <div class="products-item">
-                    <img class="products-photo" src="assets/images/colors/violet.png" alt="">
+                    <picture>
+                        <source srcset="assets/images/colors/violet.webp" type="image/webp">
+                        <img class="products-photo" src="assets/images/colors/violet.png" alt="">
+                    </picture>
                     <div class="products-name">Violet</div>
                 </div>
             </div>
@@ -287,14 +343,18 @@
 
             <div class="text-center">
                 <a class="btn  btn--gradient" href="#" target="_blank">
-                    <img class="btn-icon" src="assets/images/shopping-bag.svg" alt="">
-                    Buy Now
+                    <svg class="btn-icon">
+                        <use href="assets/images/icons-sprite.svg#shopping-bag"></use>
+                    </svg>
+                    <span>Buy Now</span>
                 </a>
             </div>
 
 
             <div class="random-text-reviews">
-                <img class="random-icon" src="assets/images/star.svg" alt="">
+                <svg class="random-icon">
+                    <use href="assets/images/icons-sprite.svg#star"></use>
+                </svg>
                 1238 reviews on <a href="#" target="_blank">Amazon.com</a>
             </div>
 
@@ -309,7 +369,7 @@
             <address class="footer-contacts">
                 <div class="footer-col">
                     <div class="footer-text">Let's talk with us</div>
-                    <a class="footer-contacts-link" href="tel:1700777000">1-700-777-000</a>
+                    <a class="footer-contacts-link hover-line" href="tel:1700777000">1-700-777-000</a>
                 </div>
 
                 <div class="footer-col">
@@ -317,17 +377,23 @@
                     <ul class="social-list">
                         <li class="social-list-item">
                             <a class="social-list-link" href="#" target="_blank">
-                                <img class="social-list-icon" src="assets/images/social/facebook-icon.svg" alt="">
+                                <svg class="social-list-icon">
+                                    <use href="assets/images/icons-sprite.svg#facebook"></use>
+                                </svg>
                             </a>
                         </li>
                         <li class="social-list-item">
                             <a class="social-list-link" href="#" target="_blank">
-                                <img class="social-list-icon" src="assets/images/social/instagram-icon.svg" alt="">
+                                <svg class="social-list-icon">
+                                    <use href="assets/images/icons-sprite.svg#instagram"></use>
+                                </svg>
                             </a>
                         </li>
                         <li class="social-list-item">
                             <a class="social-list-link" href="#" target="_blank">
-                                <img class="social-list-icon" src="assets/images/social/youtube-icon.svg" alt="">
+                                <svg class="social-list-icon">
+                                    <use href="assets/images/icons-sprite.svg#youtube"></use>
+                                </svg>                            
                             </a>
                         </li>
                     </ul>
@@ -336,7 +402,7 @@
 
                 <div class="footer-col">
                     <div class="footer-text">Get customer care</div>
-                    <a class="footer-contacts-link" href="mailto:info@domain.com">info@domain.com</a>
+                    <a class="footer-contacts-link hover-line" href="mailto:info@domain.com">info@domain.com</a>
                 </div>
             </address>
 
@@ -346,18 +412,24 @@
             <div class="container">
                 <div class="footer-info-inner">
                     <nav class="footer-nav">
-                        <a class="footer-nav-link" href="#">Payment</a>
-                        <a class="footer-nav-link" href="#">Delivery</a>
-                        <a class="footer-nav-link" href="#">Terms and Conditions</a>
-                        <a class="footer-nav-link" href="#">Privacy Policy</a>
+                        <a class="footer-nav-link hover-line" href="#">Payment</a>
+                        <a class="footer-nav-link hover-line" href="#">Delivery</a>
+                        <a class="footer-nav-link hover-line" href="#">Terms and Conditions</a>
+                        <a class="footer-nav-link hover-line" href="#">Privacy Policy</a>
                     </nav>
 
                     <ul class="footer-payments">
                         <li class="footer-payments-item">
-                            <img class="footer-payments-icon" src="assets/images/visa.png" alt="We accept Visa and Mastercard">
+                            <picture>
+                                <source srcset="assets/images/visa.webp" type="image/webp">
+                                <img class="footer-payments-icon" src="assets/images/visa.png" alt="We accept Visa and Mastercard">
+                            </picture>
                         </li>
                         <li class="footer-payments-item">
-                            <img class="footer-payments-icon" src="assets/images/paypal.png" alt="We accept Paypal">
+                            <picture>
+                                <source srcset="assets/images/paypal.webp" type="image/webp">
+                                <img class="footer-payments-icon" src="assets/images/paypal.png" alt="We accept Paypal">
+                            </picture>
                         </li>
                     </ul>
                 </div>
@@ -367,7 +439,9 @@
 
 
     <a class="move-up" href="#hero">
-        <img class="move-up-icon" src="assets/images/move-up.svg" alt="">
+        <svg class="move-up-icon">
+            <use href="assets/images/icons-sprite.svg#move-up"></use>
+        </svg>
     </a>
 
 </body>

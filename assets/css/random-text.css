@@ -25,7 +25,11 @@
 }
 
 .random-icon {
+    width: 3.2rem;
+    height: 3.2rem;
     display: inline-block;
     vertical-align: text-bottom;
     margin: 0 1rem;
+
+    stroke: var(--primary);
 }
