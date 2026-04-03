@@ -28,16 +28,13 @@
 }
 
 .footer-contacts-link {
+    position: relative;
     font-size: 3.2rem;
     font-weight: 700;
     color: var(--primary);
     line-height: 1.1;
     letter-spacing: var(--letter-spacing);
     text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
-    }
 }
 
 
@@ -64,10 +61,6 @@
     line-height: 1.1;
     color: var(--gray-text);
     text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
-    }
 }
 
 .footer-payments {

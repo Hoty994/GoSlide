@@ -34,6 +34,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -49,8 +50,12 @@ body {
     background-color: var(--primary);
 }
 
-*, *::before, *::after {
+*, *::before, *::after{
     box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
 }
 
 h1, h2, h3, h4, h5, h6 {

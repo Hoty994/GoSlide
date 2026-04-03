@@ -19,7 +19,8 @@
     border-radius: 50%;
     transition: background-color .2s linear;
 
-    &:hover {
+    &:hover,
+    &:focus {
         background-color: var(--primary);
 
         .social-list-icon {
