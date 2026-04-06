@@ -35,3 +35,25 @@
     font-size: 2.2rem;
     font-weight: 300;
 }
+
+@media (max-width: 768px) {
+    .benefits {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 2.5rem;
+        margin-top: 7rem;
+        padding: 0 5.5rem;
+    }
+
+    .benefits-num {
+        font-size: 2.2rem;
+    }
+    
+    .benefits-item {
+        padding: 0;
+    }
+
+    .benefits-text {
+        font-size: 1.8rem;
+    }
+}

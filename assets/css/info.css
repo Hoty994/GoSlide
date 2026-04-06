@@ -45,3 +45,34 @@
     color: var(--gray-text);
     line-height: 1.8;
 }
+
+@media (max-width: 1280px) {
+    .info-title {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .info {
+        flex-direction: column; 
+        text-align: center;
+
+        + .info {
+            margin-top: 6rem;
+        }
+    }
+
+    .info-photo {
+        max-width: 60%;
+    }
+
+    .info-title {
+        margin-top: 4.5em;
+        font-size: 3.2rem;
+    }
+
+    .info-text {
+        margin-bottom: 3rem;
+        font-size: 1.6rem;
+    }
+}

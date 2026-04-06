@@ -33,3 +33,12 @@
 
     stroke: var(--primary);
 }
+
+@media (max-width: 768px) {
+    .random-text-item {
+        margin: 2rem 0;
+        display: block;
+        
+    }
+    
+}

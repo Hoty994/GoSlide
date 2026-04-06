@@ -118,3 +118,10 @@
 
     stroke: var(--light);
 }
+
+@media (max-width: 768px) {
+    .btn--large,
+    .btn--primary {
+        font-size: 1.6rem;
+    }
+}
