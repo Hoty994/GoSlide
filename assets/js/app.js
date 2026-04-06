@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+
 const slides = document.querySelectorAll('.reviews-item');
 const prevBtn = document.querySelector('.slider-arrows-prev');
 const nextBtn = document.querySelector('.slider-arrows-next');
@@ -42,3 +43,14 @@ nextBtn.addEventListener('click', () => {
 });
 
 timer = setInterval(() => goTo(current + 1), 5000);
+
+
+
+const burgerBtn = document.querySelector('.burger-btn');
+const nav = document.querySelector('.nav');
+ 
+burgerBtn.addEventListener('click', () => {
+    burgerBtn.classList.toggle('active');
+    nav.classList.toggle('active');
+});
+ 
