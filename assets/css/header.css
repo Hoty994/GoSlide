@@ -11,6 +11,14 @@
     z-index: var(--header-z);
 }
 
+.header.fixed {
+    position: fixed;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
 .header-logo {
     display: flex;
     align-items: center;
