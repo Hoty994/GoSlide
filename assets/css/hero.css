@@ -99,6 +99,8 @@
 
     .hero-text {
         margin-top: 6rem;
+        padding-left: 0;
+        padding-right: 0;
         flex-direction: column;
         text-align: center;
     }

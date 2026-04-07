@@ -15,3 +15,13 @@
         opacity: 0.6;
     }
 }
+
+@media (max-width: 768px) {
+    .price {
+        font-size: 4.8rem;
+
+        s {
+            font-size: 4rem;
+        }
+    }
+}

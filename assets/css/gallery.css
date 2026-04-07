@@ -37,3 +37,17 @@
     left: 0;
     z-index: 1;
 }
+
+@media (max-width: 768px) {
+    .gallery {
+        max-height: 30rem;
+    }
+
+    .gallery-item {
+        padding: 3.5rem 0;
+    }
+
+    .gallery-title {
+        font-size: 3.6rem;
+    }
+}

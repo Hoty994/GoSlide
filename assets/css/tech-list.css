@@ -47,7 +47,22 @@
 }
 
 @media (max-width: 768px) {
+    .tech-list {
+        row-gap: 3rem;
+        margin: 6rem 0;
+    }
+
     .tech-list-item {
         flex-basis: 50%;
+        min-width: 0;
+    }
+
+    .tech-list-title {
+        font-size: 1.8rem;
+    }
+
+    .tech-list-icon {
+        width: 4rem;
+        height: 4rem;
     }
 }
