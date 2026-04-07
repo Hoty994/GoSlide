@@ -19,3 +19,14 @@
     stroke: var(--gray-text);
     transition: stroke .2s linear;
 }
+
+@media (max-width: 768px) {
+    .move-up {
+        right: 1rem;
+    }
+
+    .move-up-icon {
+        width: 4rem;
+        height: 4rem;
+    }
+}

@@ -39,3 +39,21 @@
     font-weight: 700;
     color: var(--light);
 }
+
+@media (max-width: 1280px) {
+    .header {
+        padding: 2rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .header-brand {
+        display: none;
+    }
+
+    .header-logo-icon {
+        width: 3.6rem;
+        height: 3.6rem;
+    }
+}

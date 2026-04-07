@@ -3,6 +3,8 @@
     row-gap: 7rem;
     flex-wrap: wrap;
     margin: 10rem 0 8rem;
+    padding-left: 0;
+    justify-content: center;
 }
 
 .tech-list-item {
@@ -36,4 +38,31 @@
     font-size: 1.6rem;
     line-height: 1.5;
     color: var(--gray-text);
+}
+
+@media (max-width: 1280px) {
+    .tech-list-item {
+        flex-basis: 33.3333%;
+    }
+}
+
+@media (max-width: 768px) {
+    .tech-list {
+        row-gap: 3rem;
+        margin: 6rem 0;
+    }
+
+    .tech-list-item {
+        flex-basis: 50%;
+        min-width: 0;
+    }
+
+    .tech-list-title {
+        font-size: 1.8rem;
+    }
+
+    .tech-list-icon {
+        width: 4rem;
+        height: 4rem;
+    }
 }

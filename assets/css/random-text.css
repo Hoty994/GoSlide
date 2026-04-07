@@ -33,3 +33,25 @@
 
     stroke: var(--primary);
 }
+
+@media (max-width: 768px) {
+    .random-text {
+        margin-bottom: 10rem;
+    }
+
+    .random-text-item {
+        margin: 2rem 0;
+        display: block;
+        
+    }
+
+    .random-text-reviews {
+        font-size: 1.8rem;
+    }
+
+    .random-icon {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+    
+}

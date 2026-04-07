@@ -18,3 +18,15 @@
     font-weight: 800;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+    }
+
+    .products-name {
+        font-size: 2rem;
+    }
+}

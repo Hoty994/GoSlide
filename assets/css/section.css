@@ -41,3 +41,34 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 768px) {
+    .section {
+        padding: 7rem 0;
+    }
+
+    .section-title {
+        font-size: 3.2rem;
+    }
+
+    .section--light {
+        background-image: repeating-linear-gradient(
+            to right,
+            transparent 0px,
+            transparent 150px,
+            #EDEDED 150px,
+            #EDEDED 151px
+        );
+    }
+
+
+    .section--dark {
+        background-image: repeating-linear-gradient(
+            to right,
+            transparent 0px,
+            transparent 150px,
+            #1A1A1A 150px,
+            #1A1A1A 151px
+        );
+    }
+}

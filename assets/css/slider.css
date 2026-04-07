@@ -32,3 +32,10 @@
 
     stroke: var(--primary);
 }
+
+@media (max-width: 768px) {
+    .slider-arrows {
+        margin-top: 4rem;
+        justify-content: center;
+    }
+}
